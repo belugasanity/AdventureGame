@@ -4,6 +4,15 @@ function userData(){
 	var start = confirm("Are you ready to start the game " + name + "?");
 	if(start){
 		alert("Welcome to the game " + name);
+		function courthouse(){
+    alert("welcome to the courthouse");
+  }
+  function firestation(){
+    alert("welcome to the firestation");
+  }
+  function hospital(){
+    alert("welcome to the hospital");
+  }
 		var choice = prompt("Where would you like to go? The courthouse? the firestation? or the Hospital?");
 		if(choice == "courthouse"){
 			courthouse();
@@ -18,14 +27,5 @@ function userData(){
 	else{
 		userData();
 	};
-  function courthouse(){
-    console.log("welcome to the courthouse");
-  }
-  function firestation(){
-    console.log("welcome to the firestation");
-  }
-  function hospital(){
-    console.log("welcome to the hospital");
-  }
 }
 userData();
