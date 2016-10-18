@@ -105,7 +105,7 @@ function courthouse(){
         alert("Your match causes an explosion and destroys the aliens, unfortunately you also die but you die a true hero.");
 
       }else{
-        alert("You chose not to pick up any items and the aliens abduct you and you die from their tortures and expirements. You die a coward.");
+        alert("You chose not to use your match and blow yourself up, the aliens kill you and eat you.");
       }
   }else{
         alert("You chose not to pick up any items and the aliens abduct you and you die from their tortures and expirements. You die a coward.");
